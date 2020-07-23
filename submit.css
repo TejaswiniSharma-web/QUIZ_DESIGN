@@ -1,0 +1,19 @@
+
+
+body {
+    background-color: lightslategrey;
+    animation-name: colors;
+    animation-duration: 4s;
+    text-align: center;
+    padding: 500px;
+  }
+@keyframes colors {
+    0%   {background-color:lightsalmon;}
+    25%  {background-color:rgb(226, 147, 43)}
+    50%  {background-color:gold}
+    100% {background-color:rgb(43, 226, 226);}
+  }
+#wishes:hover{
+    font-size: xx-large
+}
+  

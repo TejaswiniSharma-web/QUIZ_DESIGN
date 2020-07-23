@@ -1,0 +1,13 @@
+body {
+    padding-top: 20px;
+    padding-left: 40px;;
+    background-color:lightseagreen;
+    animation-name: colors;
+    animation-duration: 4s;
+  }
+  @keyframes colors {
+    0%   {background-color:lightseagreen;}
+    25%  {background-color:#e49d1a;}
+    50%  {background-color:lightslategray;}
+    100% {background-color:rgb(226, 147, 43);}
+  }
